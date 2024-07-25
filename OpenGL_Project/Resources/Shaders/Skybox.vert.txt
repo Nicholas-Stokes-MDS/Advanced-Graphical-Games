@@ -1,0 +1,19 @@
+#version 460 core
+
+// Vertex Data Interpretation
+layout (location = 0) in vec3 Position;
+
+// Inputs
+uniform mat4 ProjectionMat;
+uniform mat4 ViewMat;
+
+// Outputs to Fragment Shader
+out vec3 FragTexCoords; // only pass through texture coordinates
+
+// Shader Functionality
+void main()
+{
+	vec4 Pos = ProjectionMat * ViewMat * vec4(Position, 1.0f);
+	gl_Position =  Pos.xyww;
+	FragTexCoords = vec3(Position.xyz); // pass through texture coordinates
+}

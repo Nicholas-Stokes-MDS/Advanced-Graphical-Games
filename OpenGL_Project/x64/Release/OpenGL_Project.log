@@ -1,0 +1,17 @@
+﻿  CCamera.cpp
+  CInput.cpp
+  LightManager.cpp
+  main.cpp
+C:\Users\GGPC\Downloads\OpenGL_Project(workshop)\OpenGL_Project(workshop)\OpenGL_Project\main.cpp(314,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\GGPC\Downloads\OpenGL_Project(workshop)\OpenGL_Project(workshop)\OpenGL_Project\main.cpp(314,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\GGPC\Downloads\OpenGL_Project(workshop)\OpenGL_Project(workshop)\OpenGL_Project\main.cpp(779,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mesh_Model.cpp
+C:\Users\GGPC\Downloads\OpenGL_Project(workshop)\OpenGL_Project(workshop)\OpenGL_Project\Mesh_Model.cpp(267,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  ShaderLoader.cpp
+  Skybox.cpp
+C:\Users\GGPC\Downloads\OpenGL_Project(workshop)\OpenGL_Project(workshop)\OpenGL_Project\Skybox.cpp(41,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1946 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  OpenGL_Project.vcxproj -> C:\Users\GGPC\Downloads\OpenGL_Project(workshop)\OpenGL_Project(workshop)\x64\Release\OpenGL_Project.exe
